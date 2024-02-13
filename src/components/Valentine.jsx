@@ -100,6 +100,7 @@ const Valentine = () => {
               Wishing you a Valentine's Day filled with love, joy, and the
               knowledge that you are cherished beyond measure. With all my love.
             </p>
+            <p>I LOVE YOU</p>
           </p>
         </div>
       )}
