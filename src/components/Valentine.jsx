@@ -17,6 +17,7 @@ const Valentine = () => {
     heart.style.animationDuration = Math.random() * 3 + 2 + "s";
     body.appendChild(heart);
   }
+  
   setInterval(createHeart, 1000);
   setInterval(function name(params) {
     var heartArr = document.querySelectorAll(".fa-heart");
@@ -41,7 +42,6 @@ const Valentine = () => {
     left: x + "%",
     top: y + "%",
     position: "absolute",
-    marginLeft: "5px",
   };
 
   var yesStyle = {
@@ -76,25 +76,25 @@ const Valentine = () => {
         <div className="modal">
           <p>
             As Valentine's Day arrives, I find myself reflecting on the joy and
-            warmth you bring into my life. Today, I want to express the depth of
-            my feelings for you in words that barely scratch the surface of what
-            I truly feel.
+            warmth you brought into my life. I want to express the depth of my
+            feelings for you in words that barely scratch the surface of what I
+            truly feel for you.
             <p>
               Your presence in my life is like a gentle melody that soothes my
-              soul and a burst of colors that brightens even the grayest days.
-              Your laughter is the sweetest symphony, and your smile is a beacon
-              of light that guides me through any darkness. It's not just today,
-              but every day that I cherish the moments we share and the
-              connection we've built.
+              soul and a burst of colors that brightens even on the grayest
+              days. Your laughter is the sweetest symphony, and your smile is a
+              beacon of light that guides me through any darkness. It's not just
+              today, but every day that I cherish every moments we've shared and
+              the connections we've built.
             </p>
             <p>
               {" "}
-              Your kindness, intelligence, and the way you care for those around
-              you make me fall for you over and over again. It's a privilege to
-              know you and an honor to call you mine. On this day of love, I
-              want to celebrate you – your uniqueness, your dreams, and the
-              beautiful soul that you are. My love for you knows no bounds, and
-              I look forward to creating countless more memories together.
+              Your kindness, intelligence, and your beauty, makes me fall for
+              you over and over again. It's a privilege to know you and an honor
+              to call you mine. On this day of love, I want to celebrate you –
+              your uniqueness, your dreams, and the beautiful soul that you are.
+              My love for you knows no bounds, and I look forward to creating
+              countless more memories together.
             </p>
             <p>
               Wishing you a Valentine's Day filled with love, joy, and the
