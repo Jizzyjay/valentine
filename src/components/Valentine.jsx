@@ -29,7 +29,7 @@ const Valentine = () => {
   /* code for moving button */
   const popUp = () => {
     alert(
-      "AH look at you, you caught the button. \nLucky button catchers win one free date on February 14th with an eligible bachelor who will be in touch with you to follow up!"
+      "AH why, short winch, go back and click yes."
     );
   };
 
