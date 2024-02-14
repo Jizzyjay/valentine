@@ -74,6 +74,7 @@ const Valentine = () => {
 
       {showModal && (
         <div className="modal">
+          <p>Hi Mercy</p>
           <p>
             As Valentine's Day arrives, I find myself reflecting on the joy and
             warmth you brought into my life. I want to express the depth of my
